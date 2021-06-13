@@ -1,0 +1,205 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #204f87;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.banner{
+    background-image: url(./images/banner.png);
+      min-height: 80vh;
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+position:relative;
+}
+.banner h1{
+        color: #fff;
+    font-size: 60px;
+    text-transform: uppercase;
+
+}
+.icon{
+position:absolute;
+color:#fff;
+font-size:40px;
+left:50%;
+top:80%;
+transform: translate(-50%, 0);
+animation: updown 2s linear infinite;
+}
+
+@keyframes updown{
+    0%{
+        top:80%;
+    }
+    100%{
+        top:90%;
+    }
+
+}
+.heading span{
+    display: inline-block;
+    height: 3px;
+    width: 0px;
+    background: #de6411;
+    transition: .5s all ease-in-out;
+
+}
+.heading h1{
+    color: #204f87;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+}
+.we_are_here{
+    padding: 70px 0;
+}
+.we_are_here p{
+    color: #b0b0b1;
+    font-size: 14px;
+}
+.we_are_here:hover .heading span{
+    width: 50px;
+}
+.what_we_do{
+    padding: 70px 0;
+    background-image: url(./images/bg02.png);
+    background-position: right bottom;
+    background-size: 800px;
+    background-repeat: no-repeat;
+}
+.heading_two span{
+    display: inline-block;
+    background: #f15e2a;
+    height: 4px;
+    width: 0px;
+    transition: 0.50s all ease-in-out;
+}
+
+.heading_two h1{
+    color: #204f87;
+    text-transform: uppercase;
+    font-size: 36px;
+
+}
+.what_we_do:hover .heading_two span{
+    width: 50px;
+    
+}
+.image{
+position: relative;
+}
+
+.image::before{
+position: absolute;
+content:'' ;
+height:0%;
+width: 100%;
+background-color: #/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2989d8+5,2989d8+61,2989d8+74,2989d8+74,2989d8+82,2989d8+86,2989d8+96,207cca+100,7db9e8+100&0+39,1+93 */
+background: -moz-linear-gradient(top,  rgba(41,137,216,0) 5%, rgba(41,137,216,0) 39%, rgba(41,137,216,0.41) 61%, rgba(41,137,216,0.65) 74%, rgba(41,137,216,0.8) 82%, rgba(41,137,216,0.87) 86%, rgba(41,137,216,1) 93%, rgba(41,137,216,1) 96%, rgba(125,185,232,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(41,137,216,0) 5%,rgba(41,137,216,0) 39%,rgba(41,137,216,0.41) 61%,rgba(41,137,216,0.65) 74%,rgba(41,137,216,0.8) 82%,rgba(41,137,216,0.87) 86%,rgba(41,137,216,1) 93%,rgba(41,137,216,1) 96%,rgba(125,185,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(41,137,216,0) 5%,rgba(41,137,216,0) 39%,rgba(41,137,216,0.41) 61%,rgba(41,137,216,0.65) 74%,rgba(41,137,216,0.8) 82%,rgba(41,137,216,0.87) 86%,rgba(41,137,216,1) 93%,rgba(41,137,216,1) 96%,rgba(125,185,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002989d8', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+;
+opacity: .5;
+left: 0;
+bottom: 0;
+
+;
+}
+.image:hover::before{
+    height: 100%;
+}
+
+
+
+.title {
+    color: #fff;
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    opacity: 0;
+    transition: .5s all ease-in-out;
+
+}
+
+.title h1{
+
+}
+.image:hover .title{
+    opacity: 1;
+    top: 40%;
+}
+.arrow_icon{
+    position: absolute;
+    color: #fff;
+    top: 75%;
+    left: 40%;
+    transform: translate(-50%);
+    font-size: 40px;
+    opacity: 0;
+    transition: .5s all ease-in-out;
+
+
+}
+.image:hover .arrow_icon{
+    opacity: 1;
+    left: 50%;
+}
+
+/* .our_attorney part strat here  */
+
+
+.our_attorneys{
+    padding: 70px 0;
+    background-image: url(./images/b-g03\).png);
+    background-position:center;
+    background-size: 1600px;
+    background-repeat: no-repeat;
+
+}
+.heading_three span{
+    display: inline-block;
+    height: 3px;
+    width: 0px;
+    background: #de6411;
+    transition: .5s all ease-in-out;
+
+
+}
+.our_attorneys:hover .heading_three span{
+    width: 50px;
+}
+
+.heading_three h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+}
+.heading_three p{
+    font-size: 14px;
+    color: #fff;
+}
+.heading_three h2{
+    font-size: 18px;
+    color: #de6411;
+
+}
+.image{
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+
+}
+    
+
+
